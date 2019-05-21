@@ -1,0 +1,26 @@
+{
+  "transitions" : {
+    "A" : {
+      "fromState" : {
+        "name" : "A",
+        "description" : "Alpha"
+      },
+      "toState" : {
+        "name" : "B",
+        "description" : "Bravo"
+      },
+      "action" : "One"
+    },
+    "B" : {
+      "fromState" : {
+        "name" : "B",
+        "description" : "Bravo"
+      },
+      "toState" : {
+        "name" : "A",
+        "description" : "Alpha"
+      },
+      "action" : "Two"
+    }
+  }
+}
